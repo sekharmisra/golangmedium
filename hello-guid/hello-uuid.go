@@ -7,7 +7,7 @@ import (
 	"github.com/google/uuid"
 )
 
-func hellouuid() {
+func main() {
 	fmt.Println(uuid.New().String())
 
 }

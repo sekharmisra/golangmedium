@@ -11,8 +11,4 @@ func main() {
 
 	fmt.Printf("Here I am printing value from the implicitly typed variable! ***** %v\n", myVariable)
 	fmt.Printf("Here I am printing value of the type of myVariable! ***** %T\n", myVariable)
-
-	//Calling func
-	hellouuid()
-
 }
