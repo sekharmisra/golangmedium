@@ -8,4 +8,13 @@ func main() {
 
 	//nested for loops
 	nestedForLoop()
+
+	//Odd Even Compute
+	oddEvenCompute()
+
+	//Switch Go!
+	switchGo()
+
+	//inteface example
+	interfaceExample()
 }
