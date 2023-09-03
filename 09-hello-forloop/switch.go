@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func switchGo() {
-
+	fmt.Println("******Switch in Go Start*************")
 	var schedule string = "03Sep"
 
 	switch schedule {
@@ -16,4 +16,6 @@ func switchGo() {
 	default:
 		fmt.Println("Doing nothing!")
 	}
+
+	fmt.Println("******Switch in Go End*************")
 }
