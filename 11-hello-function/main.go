@@ -15,4 +15,12 @@ func main() {
 	fmt.Println(addVariadicFunc(nameSlice))
 	fmt.Println(averageSalary(3125, 2018, 2511, 3125))
 
+	//anonymous function
+	greet := func() {
+		fmt.Println("Hello World from Anonymous Function")
+	}
+
+	greet()
+	fmt.Printf("Type of greet is : %T", greet)
+
 }
