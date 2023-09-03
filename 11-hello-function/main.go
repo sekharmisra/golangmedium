@@ -13,5 +13,6 @@ func main() {
 	nameSlice := []string{}
 	nameSlice = addSlice()
 	fmt.Println(addVariadicFunc(nameSlice))
+	fmt.Println(averageSalary(3125, 2018, 2511, 3125))
 
 }
