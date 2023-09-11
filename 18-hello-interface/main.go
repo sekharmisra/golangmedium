@@ -25,4 +25,6 @@ func main() {
 	printNumbers(add)
 	printNumbers(mul)
 
+	doSort()
+
 }
